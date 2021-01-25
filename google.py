@@ -6,7 +6,7 @@ import urllib.request
 options = webdriver.ChromeOptions() 
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 # 크롬 드라이버 실행
-driver = webdriver.Chrome(options=options,executable_path='C:\\Users\\Peter\\Downloads\\chromedriver_win32\\chromedriver')
+driver = webdriver.Chrome(options=options,executable_path='다운받은 크롬드라이버 경로')
 
 # 드라이버 주소 이동 명령
 # 2s sleep
